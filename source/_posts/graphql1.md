@@ -2,6 +2,7 @@
 title: GrapgQL介绍(一)
 date: 2017-04-05 22:46:39
 tags: graphQL
+reward: true
 ---
 
 最近在学习[GraphQL](http://www.graphql.org/) API查询语言，想把官网的介绍文档翻译一下，学习的同时分享知识。
@@ -125,4 +126,83 @@ GraphQL不会绑定特定的数据库或者存储引擎而是使用你当前的�
 	  }
 	}
 
-注意上面的例子，字段`friends`返回了一个数组。
+注意上面的例子，字段`friends`返回了一个数组。GraphQL查询对于单个项和列表项看起来相同，
+但是我们根据给定的模式知道预期的内容。
+
+
+### 参数(Arguments)
+
+如果我们唯一可以做的只是遍历对象以及其字段，那GraphQL已经是获取数据非常有用的语言。但是，当你
+将参数传递给字段时，这就变的更有趣了。
+
+	{
+	  human(id: "1000") {
+		name
+		height
+	  }
+	}
+	结果：
+	{
+	  "data": {
+		"human": {
+		  "name": "Luke Skywalker",
+		  "height": 1.72
+		}
+	  }
+	}
+
+像REST系统，你只能传递一组参数-通过查询参数和请求URL。但是在GraphQL中，每个字段和嵌套对象都
+可以获得自己的一组参数。从而使GraphQL可以替代多个API提取。你甚至可以将参数传递到标量字段中，
+以便在服务器上实现数据转换，而不是分别在每个客户端上执行数据转换。
+
+	{
+	  human(id: "1000") {
+		name
+		height(unit: FOOT)
+	  }
+	}
+	结果：
+	{
+	  "data": {
+		"human": {
+		  "name": "Luke Skywalker",
+		  "height": 5.6430448
+		}
+	  }
+	}
+
+参数可以是很多不同的类型。在上面的例子中，我们使用了一个枚举类型，它表示一组有限选项
+（在这种情况下是长度单位，或者是METER或FOOT）之一。GraphQL带有自己的默认类型，但是在GraphQL上
+也可以自定义类型，自定义类型也可以在传输数据的时候序列化。
+
+[更多GraplQL类型内容](http://graphql.org/learn/schema/)
+
+
+### 别名(Aliases)
+
+如果你观察仔细，你可能已经发现了，返回的结果对象字段的名字匹配查询的字段但不包括参数，
+所以你不能直接的通过不同的参数查询同样的字段。这样你就需要别名-它可以让你把返回的结果重命名
+成任何其他你想要的。
+
+	{
+	  empireHero: hero(episode: EMPIRE) {
+		name
+	  }
+	  jediHero: hero(episode: JEDI) {
+		name
+	  }
+	}
+	结果：
+	{
+	  "data": {
+		"empireHero": {
+		  "name": "Luke Skywalker"
+		},
+		"jediHero": {
+		  "name": "R2-D2"
+		}
+	  }
+	}
+
+在上面的例子中，两个字段本应该有冲突，但是我们给他们定义了不同的别名后，
+就可以在一个请求中获取所有的结果。
