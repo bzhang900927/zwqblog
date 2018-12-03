@@ -10,11 +10,11 @@ tags: 第一篇
 <!--more-->
 
 
-<img src="http://7xjijm.com1.z0.glb.clouddn.com/QQ%E5%9B%BE%E7%89%8720170324220626.jpg" alt="pic" width="800px">
+<img src="http://img.wqzhang.top/QQ%E5%9B%BE%E7%89%8720170324220626.jpg" alt="pic" width="800px">
 
-<img src="http://7xjijm.com1.z0.glb.clouddn.com/QQ%E5%9B%BE%E7%89%8720170324220620.jpg" alt="pic2" width="800px">
+<img src="http://img.wqzhang.top/QQ%E5%9B%BE%E7%89%8720170324220620.jpg" alt="pic2" width="800px">
 
-<img src="http://7xjijm.com1.z0.glb.clouddn.com/QQ%E5%9B%BE%E7%89%8720170324220613.jpg" alt="pic3" width="800px">
+<img src="http://img.wqzhang.top/QQ%E5%9B%BE%E7%89%8720170324220613.jpg" alt="pic3" width="800px">
 
 
 以上

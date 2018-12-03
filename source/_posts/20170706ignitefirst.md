@@ -25,7 +25,7 @@ tags: ignite
 
 但是我这确报错了。。。得到下面的提示
 
-![img2](http://7xjijm.com1.z0.glb.clouddn.com/ignite07064.png)
+![img2](http://img.wqzhang.top/ignite07064.png)
 
 我就奇了怪了，这还能找不到主类，对比了文件大小，和网上的数据是一样的
 仔细看了下，上面提示说考虑把ignite-spring路径放到classpath
@@ -35,7 +35,7 @@ tags: ignite
 
 但是！
 
-![img3](http://7xjijm.com1.z0.glb.clouddn.com/ignite07063.png)
+![img3](http://img.wqzhang.top/ignite07063.png)
 
 我的lib下已经加入了ignite-spring包仍然报错。。。。。这。。扎心了，老铁
 无奈的我只能去加了几个QQ群问问大神。。。都表示没遇到过这个错误
@@ -44,7 +44,7 @@ tags: ignite
 后来才看到。。。。我的项目存放的路径 `C:\Program Files` 
 妹的。。不会吧。。。。我试这把项目拷贝到C盘下，重新配置Path变量，再尝试
 
-![img4](http://7xjijm.com1.z0.glb.clouddn.com/ignite07065.png)
+![img4](http://img.wqzhang.top/ignite07065.png)
 
 终于正常了，果然问题是出在那个空格上，导致读不到相关的模块依赖而报错。。。
 而我一直在这个问题上困扰了好久。。。知道真相后，我斯巴达了。。。

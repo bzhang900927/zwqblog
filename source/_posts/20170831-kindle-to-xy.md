@@ -11,7 +11,7 @@ tags: kindle 教程
 有点长，你也可以[点我直接看最简单的方法](#jump)
 
 想要把电子书放到kindle里，第一步，你的先买一部kindle
-![机智](http://7xjijm.com1.z0.glb.clouddn.com/jizhiruwo.jpg)
+![机智](http://img.wqzhang.top/jizhiruwo.jpg)
 好吧，我知道你想说这不是废话么。。。。额，的确是废话，下面我们开始认真的讲(基于你已经买了kindle，不限版本)
 
 - 第一步，注册一个亚马逊账号，并把kindle绑定到你的账号上
@@ -19,19 +19,19 @@ tags: kindle 教程
   <b>用户名是你的电话号码，密码是你的生日，比如我的生日是90年7月28，那么就是19900728</b>
 
 - 第二步，要配置好一些能推送的邮箱，这一块可以在亚马逊的首页的 我的账户 -> 管理我的内容和设备 -> 设置一栏里面设置，在设置的最下面有已认可的发件人电子邮箱列表，这里可以管理允许推送的邮箱,如图
-![z1](http://7xjijm.com1.z0.glb.clouddn.com/kindle1.jpg)
-![z2](http://7xjijm.com1.z0.glb.clouddn.com/kindle2.jpg)
-![z3](http://7xjijm.com1.z0.glb.clouddn.com/kindle3.jpg)
+![z1](http://img.wqzhang.top/kindle1.jpg)
+![z2](http://img.wqzhang.top/kindle2.jpg)
+![z3](http://img.wqzhang.top/kindle3.jpg)
 
 - 第三步就可以下载推送电子书了，首先我们看看它支持的格式
-![z4](http://7xjijm.com1.z0.glb.clouddn.com/kindle4.jpg)
+![z4](http://img.wqzhang.top/kindle4.jpg)
 
 最主要的就是**azw**和**mobi**这两种格式，其他的像txt和pdf也是可以的，不过一般我们就用**azw**和**mobi**格式，下载推送电子书一般有两种方式
 
 1. 直接在亚马逊上购买，就像买东西一样，买电子书，因为你的账号和你的kindle已经绑定了，所以你买了书就直接推送到你的kindle，这是最方便的
 2. 自己在网上下载电子书，然后用配置好的邮箱推送到kindle
    这种方式说白了就是给自己的kindle发邮件，而电子书是附件，比如
-![z5](http://7xjijm.com1.z0.glb.clouddn.com/kindle5.jpg)
+![z5](http://img.wqzhang.top/kindle5.jpg)
 
 这里面发件人就是你，收件人就是你kindle的邮箱，那么你的kindle邮箱号是多少呢？
 在刚才的设置可发送邮箱的上方有，另外我宝宝的就是 86电话号码@kindle.cn(电话号码就是你的电话号码！)
@@ -48,36 +48,36 @@ tags: kindle 教程
 (这里  **我的QQ**  和 **我的电话** 都需要换成现实中号码哦 ：)
 
 这个网站登录后会自动跳到亚马逊网站去签到，不用管，再重新到这个网站就好了，登录后是这个样子的：
-![z6](http://7xjijm.com1.z0.glb.clouddn.com/kindle10.jpg)
+![z6](http://img.wqzhang.top/kindle10.jpg)
 上面的搜索栏可以搜你想看的书，书名，或者作者
 不要把字打错了哦，打错了可是搜不到了，比如我们要找阿城的书，就去搜阿城
 
-![z7](http://7xjijm.com1.z0.glb.clouddn.com/kindle11.jpg)
+![z7](http://img.wqzhang.top/kindle11.jpg)
 
 然后我们选一本点击一下封面，比如《棋王》
 
-![z8](http://7xjijm.com1.z0.glb.clouddn.com/kindle12.jpg)
+![z8](http://img.wqzhang.top/kindle12.jpg)
 
 上面会显示这本书的介绍，亚马逊购买地址，以及类似的书籍，下面是可以下载推送的版本：
 **这里我要说明有一下，之前就说了会有格式选择，kindle支持的格式是awz，mobi，txt，pdf**
 **但是awz是亚马逊电子版本，一般来说加密了的，外面一般没有，pdf在kindle上看支持不是很好，一般也不建议，mobi是我推荐的版本**
 **另外在选择下载的时候最好先看一下评论，以及文件大小，太小说明可能内容不全**
-![z9](http://7xjijm.com1.z0.glb.clouddn.com/kindle13.jpg)
+![z9](http://img.wqzhang.top/kindle13.jpg)
 选择好了要下载的版本就可以点击下载，就会把电子书下载到本地了
 然后用邮件发送给自己的kindle，kindle里面就会有这本书了
 
 每次都还要下载再发邮件推送是不是太麻烦了，还有简单的方法，就是这个网站提供了自动推送的功能
 它需要在网站配置好你的kindle账号，在kindle管理添加好支持推送的邮箱，这些我都给你配置好了，你可以直接使用
 在我们下载按钮旁边就有推送的按钮：
-![z10](http://7xjijm.com1.z0.glb.clouddn.com/kindle14.jpg)
+![z10](http://img.wqzhang.top/kindle14.jpg)
 点击推送边上的下拉图标，就会出来可以推送到的kindle账号，直接选我配置好的账号，点击就可以了
 这样，这本书就自动推送到你的kindle了
 在上面的头像图标那里可以点击，在个人中心里面看推送的结果：
-![z11](http://7xjijm.com1.z0.glb.clouddn.com/kindle15.jpg)
-![z12](http://7xjijm.com1.z0.glb.clouddn.com/kindle16.jpg)
+![z11](http://img.wqzhang.top/kindle15.jpg)
+![z12](http://img.wqzhang.top/kindle16.jpg)
 
 怎么样，是不是还是挺简单的，还有更简单的方法，<span id = "jump">**那就是你想看什么书的时候直接告诉我就好了，一切我来搞定**</span>
 哈哈哈
 
-![cankui](http://7xjijm.com1.z0.glb.clouddn.com/caikui.jpg)
+![cankui](http://img.wqzhang.top/caikui.jpg)
 终于又来写一篇了。。。。

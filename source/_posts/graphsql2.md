@@ -128,12 +128,12 @@ reward: true
 把整个项目运行起来就可以看到相关的结果了：
 
 1.采用默认的query语句`{books {id,name,bookCategory{name}}}`
-![pic1](http://7xjijm.com1.z0.glb.clouddn.com/graphqlresult1.png)
+![pic1](http://img.wqzhang.top/graphqlresult1.png)
 
 2.更换query语句结构为`{books {id,name}}`
-![pic2](http://7xjijm.com1.z0.glb.clouddn.com/graphqlresult2.png)
+![pic2](http://img.wqzhang.top/graphqlresult2.png)
 
 3.更换query查询类型，通过id查询单个book信息`{book (id:"1") {id,name,bookCategory{name}}}`
-![pic3](http://7xjijm.com1.z0.glb.clouddn.com/graphqlresult3.png)
+![pic3](http://img.wqzhang.top/graphqlresult3.png)
 
 至于grapgQL的其他特性，包括更新数据等等，我将会在后面更新，thanks！
